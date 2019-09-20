@@ -17,7 +17,7 @@ fn main() {
     }.to_string();
     let address = format!("127.0.0.1:{}",port);
     rouille::start_server(address, move |request| {
-            Response::text(joke_or_insult().unwrap_or("".to_string()))
+            Response::text(joke_or_insult().unwrap_or("\n".to_string()))
     });
 }
 
