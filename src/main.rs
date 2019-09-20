@@ -10,7 +10,7 @@ type Unwraper<T> = Result<T, Box<std::error::Error>>;
 
 fn main() {
     let args: Vec<String> = env::args().collect();
-    let port = if (&args[1]).trim().parse::<f64>().is_ok() {
+    let port = if (args.len() > 1) && (&args[1]).trim().parse::<f64>().is_ok() {
         &args[1]
     } else {
         "8080"
