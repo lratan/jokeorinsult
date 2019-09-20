@@ -1,3 +1,3 @@
-# Joke or insult
+# Roasted or not
 
-A small web service that sends you a joke or an insult
+A small web service that roasts you (or not !)
