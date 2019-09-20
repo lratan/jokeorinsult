@@ -1,8 +1,8 @@
 [package]
-name = "jokeorinsult"
+name = "roastedornot"
 version = "0.1.0"
-authors = ["rgrossem"]
-edition = "2018"
+authors = ["rgrossemy"]
+edition = "2019"
 
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
